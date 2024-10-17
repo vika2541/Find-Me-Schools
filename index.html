@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Me Schools</title>
+    <link rel="stylesheet" type="text/css" href="Schoool.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">FIND<span>SCHOOLS</span></a>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+                <a href="#information" class="dropbtn">Information</a>
+                <div class="dropdown-content">
+                    <a href="#" onclick="loadCategory('Daycares')">Daycares</a>
+                    <a href="#" onclick="loadCategory('Primary Schools')">Primary Schools</a>
+                    <a href="#" onclick="loadCategory('HighSchools')">HighSchools</a>
+                    <a href="#" onclick="loadCategory('Universities')">Universities</a>
+                </div>
+            </li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#follow">Follow Us</a></li>
+            
+        <div class="h-right">
+            <a href="#">Follow us</a>
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+            <a href="#"><i class="ri-twitter-x-fill"></i></a>
+            <a href="#"><i class="ri-whatsapp-line"></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </ul>
+    </header>
+    <section class="Home">
+        <div class="home-text">
+            <h5>Let's</h5>
+            <h1>Get<br>Started</h1>
+            <p> Find Me Schools is a website developed in 2024 for the purpose of assisting both parents and children
+                to find the schools that fit their criteria. Both parents and kids are welcomed to
+                find the schools of their choice</p>
+            <a href="#" class="btn">Apply for a school today</a>
+        </div>
+    </section>
+    <section class="Schools" id="information">
+        <div class="center-text">
+            <h2>Information</h2>
+        </div>
+        <div class="Schools-content" id="schoolContent">
+            <!-- JavaScript will populate this section -->
+        </div>
+        <form action="">
+            <input type="email" placeholder="Enter your email..." required>
+            <input type="submit" value="Get Started" class="btn">
+        </form>
+    </section>
+    <section class="footer" id="contacts">
+        <div class="footer-box">
+            <h3>Services</h3>
+            <a href="#">School Finder</a>
+            <a href="#">Education Consultancy</a>
+            <a href="#">Admission Assistance</a>
+            <a href="#">School Reviews</a>
+        </div>
+        <div class="footer-box">
+            <h3>About</h3>
+            <a href="#">Our Story</a>
+            <a href="#">Our Mission</a>
+            <a href="#">Our Team</a>
+            <a href="#">Testimonials</a>
+        </div>
+        <div class="footer-box">
+            <h3>Contact Us</h3>
+            <p>Mobile:+254727894560</p>
+            <p>Email:findmeschools@gmail.com</p>
+            <p>Address:P.O Box 27-00100,Nairobi </p>
+            </div>
+            <h3>Help</h3>
+            <a href="#">FAQs</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="footer-box" id="follow">
+            <h3>Social</h3>
+            <div class="Social">
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+                <a href="#"><i class="ri-twitter-x-fill"></i></a>
+                <a href="#"><i class="ri-whatsapp-line"></i></a>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>Copyright 2024 By Sharkthorns</p>
+    </div>
+    <script src="schoool.js"></script>
+</body>
+</html>
+
+
